@@ -29,4 +29,88 @@ public class Comentario
     private boolean responsabilidade;
     @ManyToOne
     private Noticia noticia;
+
+    /**
+     * @return the id
+     */
+    public long getId() {
+        return id;
+    }
+
+    /**
+     * @param id the id to set
+     */
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    /**
+     * @return the nome
+     */
+    public String getNome() {
+        return nome;
+    }
+
+    /**
+     * @param nome the nome to set
+     */
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    /**
+     * @return the email
+     */
+    public String getEmail() {
+        return email;
+    }
+
+    /**
+     * @param email the email to set
+     */
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    /**
+     * @return the comentario
+     */
+    public String getComentario() {
+        return comentario;
+    }
+
+    /**
+     * @param comentario the comentario to set
+     */
+    public void setComentario(String comentario) {
+        this.comentario = comentario;
+    }
+
+    /**
+     * @return the responsabilidade
+     */
+    public boolean isResponsabilidade() {
+        return responsabilidade;
+    }
+
+    /**
+     * @param responsabilidade the responsabilidade to set
+     */
+    public void setResponsabilidade(boolean responsabilidade) {
+        this.responsabilidade = responsabilidade;
+    }
+
+    /**
+     * @return the noticia
+     */
+    public Noticia getNoticia() {
+        return noticia;
+    }
+
+    /**
+     * @param noticia the noticia to set
+     */
+    public void setNoticia(Noticia noticia) {
+        this.noticia = noticia;
+    }
 }
